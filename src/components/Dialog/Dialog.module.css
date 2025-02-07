@@ -1,0 +1,11 @@
+.wrapper {
+  display: inline-block;
+}
+
+.dialog {
+  border: none;
+  border-radius: var(--tek-shape-radius-medium);
+  padding: 1rem;
+  background-color: var(--tek-clr-white-rgba-70);
+  backdrop-filter: blur(10px);
+}

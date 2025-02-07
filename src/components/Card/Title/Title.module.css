@@ -1,0 +1,6 @@
+.title {
+  font-family: var(--tek-text-font-family-primary);
+  font-size: 1.25rem;
+  font-weight: var(--tek-text-font-weight-light);
+  padding: 0.5rem 0;
+}

@@ -1,6 +1,8 @@
 .card {
+  border: 1px solid var(--tek-clr-red-rgba-20);
+  color: var(--tek-clr-white-rgba-100);
   padding: 1rem;
-  background: #fff;
+  background: var(--tek-clr-black-rgba-70);
   border-radius: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px var(--tek-clr-white-rgba-20);
 }

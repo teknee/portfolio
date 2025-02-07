@@ -1,3 +1,11 @@
+/* Shapes */
+:root {
+  --tek-shape-radius-small: 0.25rem;
+  --tek-shape-radius-medium: 0.5rem;
+  --tek-shape-radius-large: 1rem;
+  --tek-shape-radius-pill: 100%;
+}
+
 /* Colors */
 :root {
   /* Color Theme Swatches in Hex */
