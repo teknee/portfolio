@@ -1,0 +1,47 @@
+.section {
+  padding: 2rem 2rem 5.5rem 2rem;
+  background-color: var(--tek-clr-black-rgba-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: var(--tek-text-font-family-secondary);
+  color: var(--tek-clr-red-rgba-100);
+  display: inline-flex;
+  gap: 0 0.5rem;
+  line-height: 1;
+}
+
+.greeting {
+  font-size: 3.75rem;
+  font-family: var(--tek-text-font-family-secondary);
+}
+
+.intro {
+  color: var(--tek-clr-white-rgba-100);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-family: var(--tek-text-font-family-primary);
+  text-align: left;
+  justify-content: center;
+}
+
+.block {
+  display: inline-block;
+  padding: 0;
+  line-height: 1;
+}
+
+.subtitle {
+  font-size: 0.75rem;
+  font-family: var(--tek-text-font-family-primary);
+  color: var(--tek-clr-white-rgba-100);
+  display: inline-block;
+  font-weight: 300;
+  margin: 0;
+}

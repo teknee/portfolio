@@ -15,7 +15,7 @@ export class Analyzer {
 
   async init() {
     const buffer = await this.loader.loadAsync(
-      "/sounds/jazz_jazzmanx27s_journey.mp3"
+      "/sounds/cheerful_gypsy_jazz.mp3"
     );
     this.audio.setVolume(1.0);
     this.audio.autoplay = true;

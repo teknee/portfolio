@@ -33,14 +33,14 @@ class AudioSpectrum {
     this.scene = createScene();
     this.loop = new Loop(this.camera, this.scene, this.renderer);
     container.append(this.renderer.domElement);
-    const { ambientLight, mainLight } = createLights();
+    const { ambientLight, mainLight, secondaryLight } = createLights();
     this.controls = createControls(this.camera, this.renderer.domElement);
     this.resizer = new Resizer(container, this.camera, this.renderer);
     this.spheres = new FrequencySphere(2048, this.columns);
     this.spheres.init();
     this.loop.updatables.push(this.spheres);
 
-    this.scene.add(ambientLight, mainLight, this.spheres);
+    this.scene.add(ambientLight, mainLight, secondaryLight, this.spheres);
 
     if (this.options.helpers) {
       this.scene.add(createAxesHelper(), createGridHelper());
