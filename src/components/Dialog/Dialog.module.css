@@ -8,4 +8,6 @@
   padding: 1rem;
   background-color: var(--tek-clr-white-rgba-70);
   backdrop-filter: blur(10px);
+  height: 80dvh;
+  width: 80dvw;
 }

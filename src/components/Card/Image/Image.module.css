@@ -1,5 +1,8 @@
 .container {
-  width: 100%;
+  align-self: center;
+  width: 3rem;
   height: auto;
   display: block;
+  border-radius: var(--tek-shape-radius-medium);
+  margin-bottom: 1rem;
 }

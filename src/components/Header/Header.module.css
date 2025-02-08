@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: var(--tek-clr-black-rgba-100);
   width: 100%;
@@ -20,7 +19,7 @@
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   margin: 0;
   display: flex;
@@ -40,4 +39,28 @@
 
 .nav a:hover {
   text-decoration: none;
+}
+
+@media (--viewport-sm) {
+  .nav ul {
+    justify-content: flex-end;
+  }
+}
+
+@media (--viewport-md) {
+  .nav ul {
+    justify-content: flex-end;
+  }
+}
+
+@media (--viewport-lg) {
+  .nav ul {
+    justify-content: flex-end;
+  }
+}
+
+@media (--viewport-xl) {
+  .nav ul {
+    justify-content: flex-end;
+  }
 }

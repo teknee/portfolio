@@ -1,15 +1,27 @@
 import React from "react";
 import styles from "./ContactSection.module.css";
+import { Section } from "../Section";
 
 export const ContactSection: React.FC = () => {
   return (
-    <section id="contact" className={styles.section}>
-      <h2>Contact</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-        odio. Praesent libero. Sed cursus ante dapibus diam.
-      </p>
-    </section>
+    <Section title="Contact" id="contact">
+      <div className={styles.container}>
+        <a href="https://www.linkedin.com/in/andrewdgeorge/" target="_blank">
+          <img
+            width={48}
+            src="/public/images/logos/LI-In-Bug.png"
+            alt="LinkedIn Profile"
+          />
+        </a>
+        <a href="https://github.com/teknee" target="_blank">
+          <img
+            width={48}
+            src="/public/images/logos/github-mark-white.png"
+            alt="GitHub Profile"
+          />
+        </a>
+      </div>
+    </Section>
   );
 };
 

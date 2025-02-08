@@ -1,0 +1,9 @@
+.subText {
+  font-size: 0.75rem;
+  color: var(--tek-clr-white-rgba-90);
+  font-family: var(--tek-text-font-family-primary);
+  font-weight: var(--tek-text-font-weight-light);
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0.5rem 0 0;
+}

@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#work">Experience</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

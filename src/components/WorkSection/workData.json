@@ -1,0 +1,160 @@
+[
+  {
+    "company": "OnChain Studios",
+    "position": "Head of Frontend Engineering",
+    "dateRange": "May 2022 - Present",
+    "image": "onchain_studios_logo.jpg",
+    "description": "Leading the frontend engineering team at OnChain Studios. Developing the OnChain Studios web applications and UI design system.",
+    "skills": [
+      "Project Management",
+      "UI Design System",
+      "Mentorship",
+      "Hiring",
+      "Team Building"
+    ],
+    "technologies": [
+      "Node.js",
+      "Apollo GraphQL",
+      "Next.js",
+      "React.js",
+      "Three.js",
+      "Serverless Framework",
+      "Nx Monorepo",
+      "Jest",
+      "Playwright",
+      "GitHub Workflows",
+      "GitHub Actions",
+      "AWS CloudFront",
+      "AWS S3",
+      "AWS ECS",
+      "AWS Elastic Container Registry (ECR)",
+      "AWS Lambda"
+    ]
+  },
+  {
+    "company": "Obsidian Security",
+    "image": "obsidiansecurity_logo.jpg",
+    "description": "Founding engineer of the Obsidian Security team. Developed the Obsidian Security platform UIs.",
+    "position": "Software Engineering Manager, Frontend",
+    "dateRange": "Sep 2017 - May 2022",
+    "skills": [
+      "Project Management",
+      "UI Design System",
+      "Mentorship",
+      "Hiring",
+      "Team Building"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Redux",
+      "REST",
+      "Git",
+      "D3.js",
+      "Enzyme",
+      "Jest",
+      "Apollo GraphQL"
+    ]
+  },
+  {
+    "company": "Amazon Web Services",
+    "position": "Web Development Engineer II",
+    "dateRange": "Apr 2016 - Sep 2017",
+    "image": "amazon_web_services_logo.jpg",
+    "description": "Developed an internal account resource visualization tool and the Support home page.",
+    "skills": ["User Research", "Project Management"],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "REST",
+      "Git",
+      "D3.js",
+      "AWS"
+    ]
+  },
+  {
+    "company": "Razorfish",
+    "position": "Senior Presentation Layer Engineer",
+    "dateRange": "Feb 2016 - Mar 2016",
+    "image": "sapientrazorfish_logo.jpg",
+    "description": "Developed web UIs for the Honda and Acura websites.",
+    "skills": [],
+    "technologies": ["HTML", "CSS", "JavaScript", "Git"]
+  },
+  {
+    "company": "PubMatic",
+    "position": "Senior UX Developer",
+    "dateRange": "May 2015 - Dec 2015",
+    "image": "pubmatic_logo.jpg",
+    "description": "Developed design system UI components for the PubMatic platform.",
+    "skills": [],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "AngularJS",
+      "REST",
+      "Git",
+      "D3.js"
+    ]
+  },
+  {
+    "company": "Velocify",
+    "position": "Senior UX Developer",
+    "dateRange": "Apr 2014 - Jul 2015",
+    "image": "velocify_logo.jpg",
+    "description": "Developed web UIs for the Dial-IQ product.",
+    "skills": [],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Knockout.js",
+      "REST",
+      "SignalR",
+      "Git",
+      "D3.js",
+      "AngularJS",
+      "Node.js"
+    ]
+  },
+  {
+    "company": "Automobile Club of Southern California",
+    "position": "Front End Web Developer",
+    "dateRange": "Aug 2013 - Apr 2014",
+    "image": "aaa_auto_club_enterprises_logo.jpg",
+    "description": "Developed web UIs for the insurance website.",
+    "skills": [],
+    "technologies": ["HTML", "CSS", "JavaScript", "Knockout.js", "REST"]
+  },
+  {
+    "company": "Rosetta",
+    "position": "UI Developer",
+    "dateRange": "Apr 2013 - Jul 2013",
+    "image": "sapientrazorfish_logo.jpg",
+    "description": "Developed web components for the BlackBerry Z10 and Q10.",
+    "skills": [],
+    "technologies": ["HTML", "CSS", "JavaScript", "Handlebars.js", "Git"]
+  },
+  {
+    "company": "Via Trading Corporation",
+    "position": "IT Manager / Web Developer",
+    "dateRange": "Jun 2011 - Apr 2013",
+    "image": "via_trading_corporation_logo.jpg",
+    "description": "Managed IT infrastructure and developed web applications for a wholesale liquidation company.",
+    "skills": ["Project Management", "IT Management", "Web Development", "SEO"],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Linux",
+      "Windows Server",
+      "Google Analytics",
+      "Google AdWords"
+    ]
+  }
+]

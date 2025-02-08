@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#work">Experience</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
         </ul>
       </nav>
       <p className={styles.copyright}>
-        © 2024 My Portfolio. All rights reserved.
+        © {new Date().getFullYear()} Andrew George. All rights reserved.
       </p>
     </footer>
   );

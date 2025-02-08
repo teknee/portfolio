@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100dvw;
+  background-color: var(--tek-clr-black-rgba-100);
+}
+.container {
+  max-width: 1440px;
+}

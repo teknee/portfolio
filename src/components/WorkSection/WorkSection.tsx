@@ -5,18 +5,33 @@ import { CardGrid } from "@/components/CardGrid";
 import * as Card from "@/components/Card";
 import { Dialog } from "@/components/Dialog";
 import { Section } from "@/components/Section";
+import workData from "./workData.json";
+
+type WorkDataType = {
+  company: string;
+  position: string;
+  dateRange: string;
+  image: string;
+  description: string;
+  skills: string[];
+  technologies: string[];
+};
 
 export const WorkSection: React.FC = () => {
   return (
     <Section title="Work Experience" id="work">
       <CardGrid>
-        {Array.from({ length: 10 }).map((_, index) => (
+        {workData.map((entry: WorkDataType, index) => (
           <Card.Root key={index}>
             <Card.Body>
-              <Card.Image src="path/to/image.jpg" alt="Card image" />
-              <Card.Title>Position/Role {index + 1}</Card.Title>
-              <Card.SubTitle>Company {index + 1}</Card.SubTitle>
-              <Card.Description>Description {index + 1}</Card.Description>
+              <Card.Image
+                src={`/images/logos/${entry.image}`}
+                alt={`${entry.company} logo`}
+              />
+              <Card.SubText>{entry.dateRange}</Card.SubText>
+              <Card.Title>{entry.position}</Card.Title>
+              <Card.SubTitle>{entry.company}</Card.SubTitle>
+              <Card.Description>{entry.description}</Card.Description>
             </Card.Body>
             <Card.Footer>
               <Dialog

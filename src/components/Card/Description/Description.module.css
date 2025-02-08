@@ -1,6 +1,6 @@
 .description {
-  font-size: 1rem;
+  font-size: 0.75rem;
   color: var(--tek-clr-white-rgba-100);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  line-height: 1.5;
+  margin: 1rem 0 0;
 }
