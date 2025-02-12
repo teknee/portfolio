@@ -17,7 +17,7 @@
 
 .nav ul {
   list-style: none;
-  padding: 0;
+  padding: 0.25rem;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -34,11 +34,15 @@
   text-decoration: none;
   color: var(--tek-clr-white-rgba-100);
   font-size: 0.875rem;
-  padding: 1.25rem;
+  padding: 1rem;
+  border-radius: var(--tek-shape-radius-medium);
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:focus {
   text-decoration: none;
+  background-color: var(--tek-clr-blue-rgba-30);
+  outline: none;
 }
 
 @media (--viewport-sm) {

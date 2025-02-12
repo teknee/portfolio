@@ -20,7 +20,11 @@
 }
 
 .nav a:hover {
-  color: var(--tek-clr-violet-rgba-100);
+  color: var(--tek-clr-blue-rgba-100);
+}
+
+.nav a:focus {
+  outline: 2px solid var(--tek-clr-blue-rgba-100);
 }
 
 .copyright {
