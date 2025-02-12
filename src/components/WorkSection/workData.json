@@ -1,0 +1,216 @@
+[
+  {
+    "company": "OnChain Studios",
+    "position": "Head of Frontend Engineering",
+    "dateRange": "May 2022 - Present",
+    "image": "onchain_studios_logo.jpg",
+    "description": "Leading the frontend engineering team at OnChain Studios. Developing the OnChain Studios web applications and UI design system.",
+    "skills": [
+      "Project Management",
+      "UI Design System",
+      "Mentorship",
+      "Hiring",
+      "Team Building"
+    ],
+    "technologies": [
+      "Node.js",
+      "Apollo GraphQL",
+      "Next.js",
+      "React.js",
+      "Three.js",
+      "Serverless Framework",
+      "Nx Monorepo",
+      "Jest",
+      "Playwright",
+      "GitHub Workflows",
+      "GitHub Actions",
+      "AWS CloudFront",
+      "AWS S3",
+      "AWS ECS",
+      "AWS ECR",
+      "AWS Lambda"
+    ],
+    "accomplishments": [
+      "Architected and led the development of a UI component library with 60+ components utilizing React Aria and TypeScript, enabling pixel-perfect UI development and improving Lighthouse accessibility scores from 52 to 97.",
+      "Migrated all frontend repositories to an Nx monorepo; created custom generators for Next.js applications, allowing new applications to be bootstrapped and deployed to development and staging environments within 2 hours. Developed component and library generators to bootstrap code with import paths, Jest unit tests, and CSS files.  ",
+      "Implemented CI/CD automation with GitHub Actions and Nx Cloud caching, reducing pipeline execution times by 65%, ensuring 85% unit test coverage, and automating Jira status updates to alert stakeholders when features were ready for review in the staging environment.",
+      "Developed a dynamic image optimization solution for all web properties and Unity applications using the Serverless Framework, AWS Lambda, S3, and CloudFront. This solution eliminated the design team’s need to generate optimized image files, reducing downloaded file sizes by up to 200% on mobile devices.",
+      "Refactored the random toy “unboxing” video experience to dynamically load video files based on API results using Three.js and the Media Source Extensions API, resolving UI-related issues in the previous implementation.",
+      "Consulted with the QA Engineering team on Playwright for end-to-end testing, developing a standard architecture for testing all web applications.",
+      "Led the adoption of Flagsmith for feature flagging, enabling the deployment, testing, and activation of new features with minimal downtime.",
+      "Collaborated with designers and backend engineers on system architecture for all web applications to ensure optimal user and developer experiences.",
+      "Recruited and mentored a globally distributed team of 8 engineers while fostering a collaborative and inclusive culture."
+    ]
+  },
+  {
+    "company": "Obsidian Security",
+    "image": "obsidiansecurity_logo.jpg",
+    "description": "Founding engineer of the Obsidian Security team. Developed the Obsidian Security platform UIs.",
+    "position": "Software Engineering Manager, Frontend",
+    "dateRange": "Sep 2017 - May 2022",
+    "skills": [
+      "Project Management",
+      "UI Design System",
+      "Mentorship",
+      "Hiring",
+      "Team Building"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Redux",
+      "REST",
+      "Git",
+      "D3.js",
+      "Enzyme",
+      "Jest",
+      "Apollo GraphQL"
+    ],
+    "accomplishments": [
+      "Architected and led the development of the company’s UI component library in 8 months, significantly accelerating feature development cycles.",
+      "Developed the authentication application with two-factor authentication.",
+      "Designed and developed the data visualization framework with 10+ visualizations and dynamic chart layouts using React, D3.js, React-Grid-Layout,  and  Rison.",
+      "Designed and built a dynamic filter component for dashboards utilizing GraphQL introspection queries. ",
+      "Developed a query builder component with type-ahead capability for a proprietary query language and collaborated with backend engineers to design the associated API.",
+      "Spearheaded the adoption of LaunchDarkly for feature flagging, facilitating deployment, testing, and feature enablement with minimal downtime.",
+      "Designed and implemented the frontend engineering hiring framework, building a high-performing, globally distributed team.",
+      "Engaged with the local tech community through presentations at meetups, resulting in the recruitment of two senior engineers."
+    ]
+  },
+  {
+    "company": "Amazon Web Services",
+    "position": "Web Development Engineer II",
+    "dateRange": "Apr 2016 - Sep 2017",
+    "image": "amazon_web_services_logo.jpg",
+    "description": "Developed an internal account resource visualization tool and the Support home page.",
+    "skills": ["User Research", "Project Management"],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Redux",
+      "REST",
+      "Git",
+      "D3.js",
+      "AWS"
+    ],
+    "accomplishments": [
+      "Led a cross-functional team to build a cloud infrastructure visualization tool, which became the 15th most-used internal tool within 10 months and gained executive visibility.",
+      "Developed a browser-based graph database for querying AWS resource relationships using a Gremlin-like syntax, utilized in the visualization tool.",
+      "Championed a user-centered design approach, incorporating user research and usability testing to increase adoption and engagement.",
+      "Developed the AWS Support dashboard UI which was the first to utilize the new AWS UI component library."
+    ]
+  },
+  {
+    "company": "Razorfish",
+    "position": "Senior Presentation Layer Engineer",
+    "dateRange": "Feb 2016 - Mar 2016",
+    "image": "sapientrazorfish_logo.jpg",
+    "description": "Developed web UIs for the Honda and Acura websites.",
+    "skills": ["Localization", "SEO", "Image Optimization"],
+    "technologies": ["HTML", "CSS", "SASS", "JavaScript", "Git"],
+    "accomplishments": [
+      "Developed reusable UI components for vehicle pages on Acura.com, focusing on consistency and brand alignment."
+    ]
+  },
+  {
+    "company": "PubMatic",
+    "position": "Senior UX Developer",
+    "dateRange": "May 2015 - Dec 2015",
+    "image": "pubmatic_logo.jpg",
+    "description": "Developed design system UI components for the PubMatic platform.",
+    "skills": ["Data Visualization", "User Experience"],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "AngularJS",
+      "REST",
+      "Git",
+      "D3.js"
+    ],
+    "accomplishments": [
+      "Contributed several interactive data visualizations and form components to a shared UI library using D3.js and AngularJS, ensuring UI design consistency across all products.",
+      "Managed a “UI playground” providing demos and code examples for designers and developers."
+    ]
+  },
+  {
+    "company": "Velocify",
+    "position": "Senior UX Developer",
+    "dateRange": "Apr 2014 - Jul 2015",
+    "image": "velocify_logo.jpg",
+    "description": "Developed web UIs for the Dial-IQ product.",
+    "skills": ["Data Visualization", "User Experience"],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Knockout.js",
+      "REST",
+      "SignalR",
+      "Git",
+      "D3.js",
+      "AngularJS",
+      "Node.js"
+    ],
+    "accomplishments": [
+      "Developed a real-time data visualization dashboard for the Dial-IQ product using D3.js and SignalR, enabling users to monitor call center performance in real-time.",
+      "Led the development of a new AngularJS-based UI for the Dial-IQ product, improving user experience and performance.",
+      "Built a multi-window state-sharing library to reduce server load and enhance user experience.",
+      "Migrated a major product from Knockout.js to AngularJS within 3 months to enable integration with Salesforce.",
+      "Created a prototype NPS dashboard using NLP tools for sentiment analysis on customer feedback, along with AngularJS and D3.js."
+    ]
+  },
+  {
+    "company": "Automobile Club of Southern California",
+    "position": "Front End Web Developer",
+    "dateRange": "Aug 2013 - Apr 2014",
+    "image": "aaa_auto_club_enterprises_logo.jpg",
+    "description": "Developed web UIs for the insurance website.",
+    "skills": [],
+    "technologies": ["HTML", "CSS", "JavaScript", "Knockout.js", "REST"]
+  },
+  {
+    "company": "Rosetta",
+    "position": "UI Developer",
+    "dateRange": "Apr 2013 - Jul 2013",
+    "image": "sapientrazorfish_logo.jpg",
+    "description": "Developed web components for the BlackBerry Z10 and Q10.",
+    "skills": ["SEO", "Image Optimization", "Localization"],
+    "technologies": ["HTML", "CSS", "JavaScript", "Handlebars.js", "Git"],
+    "accomplishments": [
+      "Worked with Adobe CQ5 to update BlackBerry.com regional sites. Localized regional images and websites.",
+      "Making layout adjustments in CSS for optimal layout in regional sites."
+    ]
+  },
+  {
+    "company": "Via Trading Corporation",
+    "position": "IT Manager / Web Developer",
+    "dateRange": "Jun 2011 - Apr 2013",
+    "image": "via_trading_corporation_logo.jpg",
+    "description": "Managed IT infrastructure and developed web applications for a wholesale liquidation company.",
+    "skills": ["Project Management", "IT Management", "Web Development", "SEO"],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Linux",
+      "Windows Server",
+      "Google Analytics",
+      "Google AdWords"
+    ],
+    "accomplishments": [
+      "Managed the company’s IT infrastructure, including servers, network, and workstations.",
+      "Managed project to install security cameras and access control systems.",
+      "Managed project to install a new VoIP phone system.",
+      "Managed project to upgrade warehouse fiber optic ISP conection.",
+      "Managed company radios and FCC compliance filings.",
+      "Managed search engine marketing campaigns, reducing ad spend by 50% while increasing sales by 22%.",
+      "Optimized the company’s website for search engines, increasing organic traffic by 30%.",
+      "Created a mobile video streaming rig for live auctions."
+    ]
+  }
+]

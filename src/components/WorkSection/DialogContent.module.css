@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  gap: 1rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.position {
+  color: var(--tek-clr-white-rgba-90);
+  font-family: var(--tek-font-family-primary);
+  font-size: 1rem;
+  font-weight: var(--tek-text-font-weight-light);
+  padding: 0;
+  margin: 0;
+}
+
+.company {
+  color: var(--tek-clr-white-rgba-100);
+  font-family: var(--tek-font-family-primary);
+  font-size: 1rem;
+  font-weight: var(--tek-text-font-weight-bold);
+  padding: 0;
+  margin: 0;
+}
+
+.dates {
+  color: var(--tek-clr-white-rgba-90);
+  font-family: var(--tek-font-family-primary);
+  font-size: 0.75rem;
+  font-weight: var(--tek-text-font-weight-light);
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  color: var(--tek-clr-white-rgba-100);
+  font-size: 0.875rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.header {
+  color: var(--tek-clr-white-rgba-90);
+  font-size: 0.875rem;
+  font-family: var(--tek-font-family-primary);
+  position: sticky;
+}
+
+.pillContainer {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.accomplishments {
+  padding: 0 0 0 0.75rem;
+}

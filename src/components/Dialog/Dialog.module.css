@@ -1,0 +1,29 @@
+.wrapper {
+  display: inline-block;
+}
+
+.dialog {
+  border: 1px solid var(--tek-clr-violet-rgba-100);
+  border-radius: var(--tek-shape-radius-medium);
+  padding: 1rem;
+  background: radial-gradient(
+    circle,
+    var(--tek-clr-violet-rgba-40) 0%,
+    var(--tek-clr-black-rgba-40) 100%
+  );
+  backdrop-filter: blur(20px);
+  height: 80dvh;
+  width: 80dvw;
+  max-width: 75ch;
+}
+
+.dialog::backdrop {
+  background-color: var(--tek-clr-black-rgba-70);
+  backdrop-filter: blur(5px);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

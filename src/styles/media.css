@@ -1,0 +1,6 @@
+/* Breakpoints */
+@custom-media --viewport-xs (max-width: 480px);
+@custom-media --viewport-sm (min-width: 481px) and (max-width: 768px);
+@custom-media --viewport-md (min-width: 769px) and (max-width: 1279px);
+@custom-media --viewport-lg (min-width: 1280px) and (max-width: 1440px);
+@custom-media --viewport-xl (min-width: 1441px);
