@@ -1,0 +1,228 @@
+/* Shapes */
+:root {
+  --tek-shape-radius-small: 0.25rem;
+  --tek-shape-radius-medium: 0.5rem;
+  --tek-shape-radius-large: 1rem;
+  --tek-shape-radius-pill: 1000rem;
+}
+
+/* Colors */
+:root {
+  /* Color Theme Swatches in Hex */
+  --tek-clr-blue-hex: #5ebcf7;
+  --tek-clr-yellow-hex: #f7f55e;
+  --tek-clr-red-hex: #f75d5d;
+  --tek-clr-green-hex: #58d749;
+  --tek-clr-violet-hex: #b26eea;
+  --tek-clr-black-hex: #332929;
+  --tek-clr-white-hex: #fffbfb;
+
+  /* Color Theme Swatches in RGBA */
+  --tek-clr-blue-rgba-100: rgba(94, 188, 247, 1);
+  --tek-clr-blue-rgba-90: rgba(94, 188, 247, 0.9);
+  --tek-clr-blue-rgba-80: rgba(94, 188, 247, 0.8);
+  --tek-clr-blue-rgba-70: rgba(94, 188, 247, 0.7);
+  --tek-clr-blue-rgba-60: rgba(94, 188, 247, 0.6);
+  --tek-clr-blue-rgba-50: rgba(94, 188, 247, 0.5);
+  --tek-clr-blue-rgba-40: rgba(94, 188, 247, 0.4);
+  --tek-clr-blue-rgba-30: rgba(94, 188, 247, 0.3);
+  --tek-clr-blue-rgba-20: rgba(94, 188, 247, 0.2);
+  --tek-clr-blue-rgba-10: rgba(94, 188, 247, 0.1);
+
+  --tek-clr-yellow-rgba-100: rgba(247, 245, 94, 1);
+  --tek-clr-yellow-rgba-90: rgba(247, 245, 94, 0.9);
+  --tek-clr-yellow-rgba-80: rgba(247, 245, 94, 0.8);
+  --tek-clr-yellow-rgba-70: rgba(247, 245, 94, 0.7);
+  --tek-clr-yellow-rgba-60: rgba(247, 245, 94, 0.6);
+  --tek-clr-yellow-rgba-50: rgba(247, 245, 94, 0.5);
+  --tek-clr-yellow-rgba-40: rgba(247, 245, 94, 0.4);
+  --tek-clr-yellow-rgba-30: rgba(247, 245, 94, 0.3);
+  --tek-clr-yellow-rgba-20: rgba(247, 245, 94, 0.2);
+  --tek-clr-yellow-rgba-10: rgba(247, 245, 94, 0.1);
+
+  --tek-clr-red-rgba-100: rgba(247, 93, 93, 1);
+  --tek-clr-red-rgba-90: rgba(247, 93, 93, 0.9);
+  --tek-clr-red-rgba-80: rgba(247, 93, 93, 0.8);
+  --tek-clr-red-rgba-70: rgba(247, 93, 93, 0.7);
+  --tek-clr-red-rgba-60: rgba(247, 93, 93, 0.6);
+  --tek-clr-red-rgba-50: rgba(247, 93, 93, 0.5);
+  --tek-clr-red-rgba-40: rgba(247, 93, 93, 0.4);
+  --tek-clr-red-rgba-30: rgba(247, 93, 93, 0.3);
+  --tek-clr-red-rgba-20: rgba(247, 93, 93, 0.2);
+  --tek-clr-red-rgba-10: rgba(247, 93, 93, 0.1);
+
+  --tek-clr-green-rgba-100: rgba(88, 215, 73, 1);
+  --tek-clr-green-rgba-90: rgba(88, 215, 73, 0.9);
+  --tek-clr-green-rgba-80: rgba(88, 215, 73, 0.8);
+  --tek-clr-green-rgba-70: rgba(88, 215, 73, 0.7);
+  --tek-clr-green-rgba-60: rgba(88, 215, 73, 0.6);
+  --tek-clr-green-rgba-50: rgba(88, 215, 73, 0.5);
+  --tek-clr-green-rgba-40: rgba(88, 215, 73, 0.4);
+  --tek-clr-green-rgba-30: rgba(88, 215, 73, 0.3);
+  --tek-clr-green-rgba-20: rgba(88, 215, 73, 0.2);
+  --tek-clr-green-rgba-10: rgba(88, 215, 73, 0.1);
+
+  --tek-clr-violet-rgba-100: rgba(178, 110, 234, 1);
+  --tek-clr-violet-rgba-90: rgba(178, 110, 234, 0.9);
+  --tek-clr-violet-rgba-80: rgba(178, 110, 234, 0.8);
+  --tek-clr-violet-rgba-70: rgba(178, 110, 234, 0.7);
+  --tek-clr-violet-rgba-60: rgba(178, 110, 234, 0.6);
+  --tek-clr-violet-rgba-50: rgba(178, 110, 234, 0.5);
+  --tek-clr-violet-rgba-40: rgba(178, 110, 234, 0.4);
+  --tek-clr-violet-rgba-30: rgba(178, 110, 234, 0.3);
+  --tek-clr-violet-rgba-20: rgba(178, 110, 234, 0.2);
+  --tek-clr-violet-rgba-10: rgba(178, 110, 234, 0.1);
+
+  --tek-clr-black-rgba-100: rgba(51, 41, 41, 1);
+  --tek-clr-black-rgba-90: rgba(51, 41, 41, 0.9);
+  --tek-clr-black-rgba-80: rgba(51, 41, 41, 0.8);
+  --tek-clr-black-rgba-70: rgba(51, 41, 41, 0.7);
+  --tek-clr-black-rgba-60: rgba(51, 41, 41, 0.6);
+  --tek-clr-black-rgba-50: rgba(51, 41, 41, 0.5);
+  --tek-clr-black-rgba-40: rgba(51, 41, 41, 0.4);
+  --tek-clr-black-rgba-30: rgba(51, 41, 41, 0.3);
+  --tek-clr-black-rgba-20: rgba(51, 41, 41, 0.2);
+  --tek-clr-black-rgba-10: rgba(51, 41, 41, 0.1);
+
+  --tek-clr-white-rgba-100: rgba(255, 251, 251, 1);
+  --tek-clr-white-rgba-90: rgba(255, 251, 251, 0.9);
+  --tek-clr-white-rgba-80: rgba(255, 251, 251, 0.8);
+  --tek-clr-white-rgba-70: rgba(255, 251, 251, 0.7);
+  --tek-clr-white-rgba-60: rgba(255, 251, 251, 0.6);
+  --tek-clr-white-rgba-50: rgba(255, 251, 251, 0.5);
+  --tek-clr-white-rgba-40: rgba(255, 251, 251, 0.4);
+  --tek-clr-white-rgba-30: rgba(255, 251, 251, 0.3);
+  --tek-clr-white-rgba-20: rgba(255, 251, 251, 0.2);
+  --tek-clr-white-rgba-10: rgba(255, 251, 251, 0.1);
+
+  /* Color Theme Swatches in HSLA */
+  --tek-clr-blue-hsla: hsla(203, 90, 66, 1);
+  --tek-clr-yellow-hsla: hsla(59, 90, 66, 1);
+  --tek-clr-red-hsla: hsla(0, 90, 66, 1);
+  --tek-clr-green-hsla: hsla(113, 63, 56, 1);
+  --tek-clr-violet-hsla: hsla(272, 74, 67, 1);
+  --tek-clr-black-hsla: hsla(0, 10, 18, 1);
+  --tek-clr-white-hsla: hsla(0, 100, 99, 1);
+}
+
+/* Fonts */
+:root {
+  /* Font Families */
+  --tek-text-font-family-primary: "Lato", sans-serif;
+  --tek-text-font-family-secondary: "Playfair Display", serif;
+
+  /* Font Weights */
+  --tek-text-font-weight-light: 300;
+  --tek-text-font-weight-regular: 400;
+  --tek-text-font-weight-bold: 700;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+#spectrum {
+  width: 100dvw;
+  height: 100dvh;
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--tek-text-font-family-primary);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+h1 {
+  font-family: var(--tek-text-font-family-secondary);
+  font-size: 2.5rem;
+  font-weight: var(--tek-text-font-weight-bold);
+}
+
+h2 {
+  color: var(--tek-clr-red-rgba-100);
+  font-family: var(--tek-text-font-family-secondary);
+  font-size: 2rem;
+  font-weight: var(--tek-text-font-weight-bold);
+}
+
+h3 {
+  font-family: var(--tek-text-font-family-primary);
+  font-size: 1.75rem;
+  font-weight: var(--tek-text-font-weight-bold);
+}
+
+h4 {
+  font-family: var(--tek-text-font-family-primary);
+  font-size: 1.5rem;
+  font-weight: var(--tek-text-font-weight-bold);
+}
+
+h5 {
+  font-family: var(--tek-text-font-family-primary);
+  font-size: 1.25rem;
+  font-weight: var(--tek-text-font-weight-bold);
+}
+
+h6 {
+  font-family: var(--tek-text-font-family-primary);
+  font-size: 1rem;
+  font-weight: var(--tek-text-font-weight-bold);
+}
+
+/* Scrollbars */
+:root {
+  --scrollbar-width: 8px;
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--tek-clr-white-rgba-70);
+  border-radius: var(--tek-shape-radius-large);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--tek-clr-red-rgba-70);
+  border-radius: var(--tek-shape-radius-large);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tek-clr-red-rgba-100);
+}
+
+/* Firefox scrollbar styles */
+/* * {
+  scrollbar-width: var(--scrollbar-width);
+  scrollbar-color: var(--tek-clr-red-rgba-70) var(--tek-clr-white-rgba-70);
+} */

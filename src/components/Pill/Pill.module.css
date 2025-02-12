@@ -1,0 +1,8 @@
+.pill {
+  border-radius: var(--tek-shape-radius-pill);
+  padding: 0.25rem 0.5rem;
+  color: var(--tek-clr-white-rgba-100);
+  background-color: var(--tek-clr-violet-rgba-100);
+  display: inline-block;
+  font-size: 0.875rem;
+}

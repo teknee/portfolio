@@ -1,0 +1,24 @@
+.button {
+  background-color: var(--tek-clr-red-rgba-100);
+  color: var(--tek-clr-white-rgba-100);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: var(--tek-shape-radius-small);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--tek-clr-red-rgba-80);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--tek-clr-blue-rgba-100);
+  outline-offset: 2px;
+}

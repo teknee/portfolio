@@ -1,0 +1,31 @@
+.footer {
+  padding: 2rem;
+  background-color: var(--tek-clr-black-rgba-100);
+  color: var(--tek-clr-white-rgba-100);
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav a {
+  color: var(--tek-clr-white-rgba-100);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: var(--tek-clr-violet-rgba-100);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: var(--tek-clr-white-rgba-90);
+}
