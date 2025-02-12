@@ -1,0 +1,9 @@
+.closeButton {
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--tek-clr-blue-rgba-100);
+  border-radius: var(--tek-shape-radius-large);
+  border: none;
+  color: var(--tek-clr-white-rgba-100);
+  line-height: 0;
+}

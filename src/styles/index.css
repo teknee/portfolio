@@ -3,7 +3,7 @@
   --tek-shape-radius-small: 0.25rem;
   --tek-shape-radius-medium: 0.5rem;
   --tek-shape-radius-large: 1rem;
-  --tek-shape-radius-pill: 100%;
+  --tek-shape-radius-pill: 1000rem;
 }
 
 /* Colors */
@@ -196,3 +196,33 @@ h6 {
   font-size: 1rem;
   font-weight: var(--tek-text-font-weight-bold);
 }
+
+/* Scrollbars */
+:root {
+  --scrollbar-width: 8px;
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--tek-clr-white-rgba-70);
+  border-radius: var(--tek-shape-radius-large);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--tek-clr-red-rgba-70);
+  border-radius: var(--tek-shape-radius-large);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tek-clr-red-rgba-100);
+}
+
+/* Firefox scrollbar styles */
+/* * {
+  scrollbar-width: var(--scrollbar-width);
+  scrollbar-color: var(--tek-clr-red-rgba-70) var(--tek-clr-white-rgba-70);
+} */

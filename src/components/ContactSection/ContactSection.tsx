@@ -9,14 +9,14 @@ export const ContactSection: React.FC = () => {
         <a href="https://www.linkedin.com/in/andrewdgeorge/" target="_blank">
           <img
             width={48}
-            src="/public/images/logos/LI-In-Bug.png"
+            src="/images/logos/LI-In-Bug.png"
             alt="LinkedIn Profile"
           />
         </a>
         <a href="https://github.com/teknee" target="_blank">
           <img
             width={48}
-            src="/public/images/logos/github-mark-white.png"
+            src="/images/logos/github-mark-white.png"
             alt="GitHub Profile"
           />
         </a>

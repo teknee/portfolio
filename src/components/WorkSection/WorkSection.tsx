@@ -1,13 +1,14 @@
 // WorkSection.tsx
 import React from "react";
-import styles from "./WorkSection.module.css";
 import { CardGrid } from "@/components/CardGrid";
 import * as Card from "@/components/Card";
 import { Dialog } from "@/components/Dialog";
 import { Section } from "@/components/Section";
 import workData from "./workData.json";
+import { Button } from "@/components/Button";
+import { DialogContent } from "./DialogContent";
 
-type WorkDataType = {
+export type WorkDataType = {
   company: string;
   position: string;
   dateRange: string;
@@ -15,6 +16,7 @@ type WorkDataType = {
   description: string;
   skills: string[];
   technologies: string[];
+  accomplishments?: string[];
 };
 
 export const WorkSection: React.FC = () => {
@@ -34,11 +36,8 @@ export const WorkSection: React.FC = () => {
               <Card.Description>{entry.description}</Card.Description>
             </Card.Body>
             <Card.Footer>
-              <Dialog
-                trigger={<button className={styles.button}>See more</button>}
-              >
-                <h2>Dialog content {index + 1}</h2>
-                <p>This is content</p>
+              <Dialog trigger={<Button>See more</Button>}>
+                <DialogContent entry={entry} />
               </Dialog>
             </Card.Footer>
           </Card.Root>

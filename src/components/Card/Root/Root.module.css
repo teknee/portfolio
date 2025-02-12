@@ -6,4 +6,5 @@
   border-radius: var(--tek-shape-radius-medium);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
