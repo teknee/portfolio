@@ -171,7 +171,10 @@
     "image": "aaa_auto_club_enterprises_logo.jpg",
     "description": "Developed web UIs for the insurance website.",
     "skills": [],
-    "technologies": ["HTML", "CSS", "JavaScript", "Knockout.js", "REST"]
+    "technologies": ["HTML", "CSS", "JavaScript", "Knockout.js", "REST"],
+    "accomplishments": [
+      "Developed a new UI for the insurance website using Knockout.js, improving user experience and performance."
+    ]
   },
   {
     "company": "Rosetta",

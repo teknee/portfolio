@@ -1,12 +1,25 @@
 .container {
   padding: 0;
-  background-color: var(--tek-clr-black-rgba-100);
+  background-color: var(--tek-clr-black-rgba-0);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50dvh;
+  height: calc(100dvh - 54px);
   width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: radial-gradient(
+    ellipse at center,
+    var(--tek-clr-black-rgba-100) 0%,
+    transparent 100%
+  );
 }
 
 .title {

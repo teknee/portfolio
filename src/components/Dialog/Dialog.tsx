@@ -17,9 +17,13 @@ export const Dialog = ({ trigger, children }: DialogProps) => {
   }, []);
 
   const closeDialog = useCallback(() => {
-    dialogRef.current?.close();
-    document.body.style.overflow = "auto";
-    triggerRef.current?.focus();
+    dialogRef.current?.classList.add(styles.closing);
+    setTimeout(() => {
+      dialogRef.current?.classList.remove(styles.closing);
+      dialogRef.current?.close();
+      document.body.style.overflow = "auto";
+      triggerRef.current?.focus();
+    }, 300);
   }, []);
   return (
     <div className={styles.wrapper}>
