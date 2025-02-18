@@ -13,7 +13,7 @@ export function createMeshes(count: number, columns: number): Mesh[] {
       0.5,
       -Math.floor(i / columns)
     );
-    mesh.material.color = new Color().setHSL(256, 0, 0.05);
+    mesh.material.color = new Color().setHSL(0, 0.1, 0.18);
     meshes.push(mesh);
   }
 
