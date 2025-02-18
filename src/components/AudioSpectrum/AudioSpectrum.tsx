@@ -1,5 +1,6 @@
 import { FC, useLayoutEffect, useRef } from "react";
 import { AudioSpectrum } from "./audioSprectrum";
+import styles from "./AudioSpectrum.module.css";
 
 export const AudioSpectrumCanvas: FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -13,16 +14,6 @@ export const AudioSpectrumCanvas: FC = () => {
   }, []);
 
   return (
-    <>
-      <div style={{ position: "fixed" }}>
-        <button onClick={() => audioSpectrumRef.current?.playAudio()}>
-          Start
-        </button>
-        <button onClick={() => audioSpectrumRef.current?.stopAudio()}>
-          Stop
-        </button>
-      </div>
-      <div id="spectrum" ref={containerRef}></div>
-    </>
+    <div id="spectrum" className={styles.container} ref={containerRef}></div>
   );
 };

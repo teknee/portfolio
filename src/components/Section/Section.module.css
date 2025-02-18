@@ -1,15 +1,35 @@
 .section {
   margin: 0;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
   background-color: var(--tek-clr-black-rgba-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.transparent {
+  background: linear-gradient(
+    to top,
+    var(--tek-clr-black-rgba-100) 1%,
+    var(--tek-clr-black-rgba-70) 18%,
+    transparent 25%
+  );
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
 }
 
 .header {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  padding-top: 3rem;
 }
 
 .content {
   font-size: 1rem;
+  max-width: 1440px;
 }
